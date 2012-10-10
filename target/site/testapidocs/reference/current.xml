@@ -1,0 +1,65 @@
+<api>
+<package name="org.soumyak.util"
+>
+<class name="ExampleConfigurationTests"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="ExampleConfigurationTests"
+ type="org.soumyak.util.ExampleConfigurationTests"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="testSimpleProperties"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+</class>
+<class name="ExampleServiceTests"
+ extends="junit.framework.TestCase"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="ExampleServiceTests"
+ type="org.soumyak.util.ExampleServiceTests"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="testReadOnce"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<exception name="Exception" type="java.lang.Exception">
+</exception>
+</method>
+</class>
+</package>
+</api>

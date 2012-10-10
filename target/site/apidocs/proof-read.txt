@@ -1,0 +1,20 @@
+javadoc proofread file: ./proof-read.txt
+
+
+=== reference/org/soumyak/util/package-descr.html ===
+
+
+=== reference/packages.html ===
+
+
+=== org/soumyak/util/Service.html ===
+METHOD: getMessage
+
+
+=== org/soumyak/util/ExampleService.html ===
+        
+        {@link ... Service}
+        with hard-coded input data.
+CONSTRUCTOR: ExampleService
+METHOD: getMessage
+        Reads next record from input
