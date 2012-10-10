@@ -4,6 +4,9 @@ javadoc proofread file: ./proof-read.txt
 === reference/org/soumyak/util/package-descr.html ===
 
 
+=== reference/org/soumyak/util/resource/package-descr.html ===
+
+
 === reference/packages.html ===
 
 
@@ -18,3 +21,21 @@ METHOD: getMessage
 CONSTRUCTOR: ExampleService
 METHOD: getMessage
         Reads next record from input
+
+
+=== org/soumyak/util/resource/IResourceManager.html ===
+FIELD: HAS_SPAWNED
+FIELD: HAS_TERMINATED
+METHOD: getVM
+        Get a list of VMs
+METHOD: spawnVM
+        Spawns a new cloud VM
+METHOD: stopVM
+        Terminates the VM
+
+
+=== org/soumyak/util/resource/AbstractResourceManager.html ===
+CONSTRUCTOR: AbstractResourceManager
+METHOD: getVM
+METHOD: spawnVM
+METHOD: stopVM

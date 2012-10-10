@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report xmlns="org.codehaus.mojo.taglist-maven-plugin">
   <tags>
-    <tag name="Todo Work" count="1">
+    <tag name="Todo Work" count="4">
       <files>
         <file name="org.soumyak.util.ExampleService" count="1">
           <comments>
             <comment>
               <lineNumber>33</lineNumber>
               <comment>Need to make sure that this method is appropriately tested</comment>
+            </comment>
+          </comments>
+        </file>
+        <file name="org.soumyak.util.resource.AbstractResourceManager" count="3">
+          <comments>
+            <comment>
+              <lineNumber>23</lineNumber>
+              <comment>Auto-generated method stub</comment>
+            </comment>
+            <comment>
+              <lineNumber>32</lineNumber>
+              <comment>Auto-generated method stub</comment>
+            </comment>
+            <comment>
+              <lineNumber>41</lineNumber>
+              <comment>Auto-generated method stub</comment>
             </comment>
           </comments>
         </file>

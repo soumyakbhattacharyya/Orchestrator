@@ -33,23 +33,18 @@
 
 	<!-- SCM settings -->
 	<scm>
-		<url>https://github.com/iamsoumyak/OrchestratorApp</url>
+		<url>https://github.com/iamsoumyak/Orchestrator</url>
 		<!-- Read - only link -->
-		<connection>scm:git:git://github.com/iamsoumyak/OrchestratorApp.git</connection>
+		<connection>scm:git:git://github.com/iamsoumyak/Orchestrator.git</connection>
 		<!-- Read + Write link -->
-		<developerConnection>scm:git:git@github.com:iamsoumyak/OrchestratorApp.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:iamsoumyak/Orchestrator.git</developerConnection>
 	</scm>
 
 	<!-- Mailing list -->
-	<!--mailingLists>
-		<mailingList>
-			<name>jpaas-discuss</name>
-			<subscribe>email @ this address to subscribe</subscribe>
-			<unsubscribe>email @ this address to unsubscribe</unsubscribe>
-			<post>email @ this address to post</post>
-			<archive>url where old discussions are being kept</archive>
-		</mailingList>
-	</mailingLists  -->
+	<!--mailingLists> <mailingList> <name>jpaas-discuss</name> <subscribe>email 
+		@ this address to subscribe</subscribe> <unsubscribe>email @ this address 
+		to unsubscribe</unsubscribe> <post>email @ this address to post</post> <archive>url 
+		where old discussions are being kept</archive> </mailingList> </mailingLists -->
 
 	<!-- Licensing terms for the utility -->
 	<licenses>
@@ -73,7 +68,7 @@
 			<url>https://github.com/iamsoumyak</url>
 			<organization>Cognizant</organization>
 			<organizationUrl>www.cognizant.com</organizationUrl>
-			<roles>				
+			<roles>
 				<role>developer</role>
 			</roles>
 			<timezone>+5.5</timezone>
@@ -118,6 +113,7 @@
 		<utility.testng.version>6.1.1</utility.testng.version>
 		<utility.mockito.version>1.8.4</utility.mockito.version>
 		<utility.hamcrest.version>1.3</utility.hamcrest.version>
+		<utility.commonsCollection.version>3.2</utility.commonsCollection.version>
 
 		<!-- java & maven version -->
 		<maven.version>3.0.3</maven.version>
@@ -169,6 +165,11 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>${utility.commonsIO.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>${utility.commonsCollection.version}</version>
 		</dependency>
 		<!-- Tests -->
 		<dependency>
