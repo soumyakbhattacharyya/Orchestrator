@@ -1,5 +1,5 @@
 <api>
-<package name="org.soumyak.util"
+<package name="com.cognizant.util"
 >
 <class name="ExampleService"
  extends="java.lang.Object"
@@ -9,10 +9,10 @@
  deprecated="not deprecated"
  visibility="public"
 >
-<implements name="org.soumyak.util.Service">
+<implements name="com.cognizant.util.Service">
 </implements>
 <constructor name="ExampleService"
- type="org.soumyak.util.ExampleService"
+ type="com.cognizant.util.ExampleService"
  static="false"
  final="false"
  deprecated="not deprecated"
@@ -51,7 +51,7 @@
 </method>
 </interface>
 </package>
-<package name="org.soumyak.util.resource"
+<package name="com.cognizant.util.resource"
 >
 <class name="AbstractResourceManager"
  extends="java.lang.Object"
@@ -61,10 +61,10 @@
  deprecated="not deprecated"
  visibility="public"
 >
-<implements name="org.soumyak.util.resource.IResourceManager">
+<implements name="com.cognizant.util.resource.IResourceManager">
 </implements>
 <constructor name="AbstractResourceManager"
- type="org.soumyak.util.resource.AbstractResourceManager"
+ type="com.cognizant.util.resource.AbstractResourceManager"
  static="false"
  final="false"
  deprecated="not deprecated"

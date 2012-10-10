@@ -3,7 +3,7 @@
   <tags>
     <tag name="Todo Work" count="4">
       <files>
-        <file name="org.soumyak.util.ExampleService" count="1">
+        <file name="com.cognizant.util.ExampleService" count="1">
           <comments>
             <comment>
               <lineNumber>33</lineNumber>
@@ -11,18 +11,18 @@
             </comment>
           </comments>
         </file>
-        <file name="org.soumyak.util.resource.AbstractResourceManager" count="3">
+        <file name="com.cognizant.util.resource.AbstractResourceManager" count="3">
           <comments>
             <comment>
-              <lineNumber>23</lineNumber>
+              <lineNumber>39</lineNumber>
               <comment>Auto-generated method stub</comment>
             </comment>
             <comment>
-              <lineNumber>32</lineNumber>
+              <lineNumber>48</lineNumber>
               <comment>Auto-generated method stub</comment>
             </comment>
             <comment>
-              <lineNumber>41</lineNumber>
+              <lineNumber>57</lineNumber>
               <comment>Auto-generated method stub</comment>
             </comment>
           </comments>

@@ -25,6 +25,6 @@
 
 	<description>Orchestrator application for executing tasks using RunDeck</description>
 
-	<context:component-scan base-package="org.soumyak.util" />
+	<context:component-scan base-package="com.cognizant.util" />
 
 </beans>

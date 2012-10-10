@@ -18,7 +18,7 @@ Once released you can find published version on JPaaS production release locatio
 
     <dependency>
         <groupId>com.cognizant</groupId>
-        <artifactId>orcehstratorapp</artifactId>
+        <artifactId>orchestrator</artifactId>
         <version>1.0.0</version>
     </dependency>
 

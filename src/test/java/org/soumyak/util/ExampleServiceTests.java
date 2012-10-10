@@ -16,7 +16,8 @@
  */
 package org.soumyak.util;
 
-import org.soumyak.util.ExampleService;
+import com.cognizant.util.ExampleService;
+
 import junit.framework.TestCase;
 
 public class ExampleServiceTests extends TestCase {

@@ -1,20 +1,20 @@
 javadoc proofread file: ./proof-read.txt
 
 
-=== reference/org/soumyak/util/package-descr.html ===
+=== reference/com/cognizant/util/package-descr.html ===
 
 
-=== reference/org/soumyak/util/resource/package-descr.html ===
+=== reference/com/cognizant/util/resource/package-descr.html ===
 
 
 === reference/packages.html ===
 
 
-=== org/soumyak/util/Service.html ===
+=== com/cognizant/util/Service.html ===
 METHOD: getMessage
 
 
-=== org/soumyak/util/ExampleService.html ===
+=== com/cognizant/util/ExampleService.html ===
         
         {@link ... Service}
         with hard-coded input data.
@@ -23,7 +23,7 @@ METHOD: getMessage
         Reads next record from input
 
 
-=== org/soumyak/util/resource/IResourceManager.html ===
+=== com/cognizant/util/resource/IResourceManager.html ===
 FIELD: HAS_SPAWNED
 FIELD: HAS_TERMINATED
 METHOD: getVM
@@ -34,7 +34,7 @@ METHOD: stopVM
         Terminates the VM
 
 
-=== org/soumyak/util/resource/AbstractResourceManager.html ===
+=== com/cognizant/util/resource/AbstractResourceManager.html ===
 CONSTRUCTOR: AbstractResourceManager
 METHOD: getVM
 METHOD: spawnVM
