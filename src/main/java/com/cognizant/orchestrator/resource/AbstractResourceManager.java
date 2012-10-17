@@ -17,7 +17,7 @@
 /**
  * 
  */
-package com.cognizant.util.resource;
+package com.cognizant.orchestrator.resource;
 
 import java.util.List;
 

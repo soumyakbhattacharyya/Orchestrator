@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cognizant.util.rundeck;
+package com.cognizant.orchestrator.rundeck;
 
 import java.util.List;
 import org.rundeck.api.RundeckClient;

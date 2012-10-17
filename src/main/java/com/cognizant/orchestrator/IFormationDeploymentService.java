@@ -14,39 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cognizant.util.resource;
+package com.cognizant.orchestrator;
 
-import java.util.List;
+import com.cognizant.orchestrator.entity.Formation;
 
-/*
- * Manages resource including spawning, listing and stopping
- */
-public interface IResourceManager {
+public interface IFormationDeploymentService {
 	
-	boolean HAS_SPAWNED = Boolean.TRUE;
-	boolean HAS_TERMINATED = Boolean.TRUE;
-	
-	/**
-	 * Spawns a new cloud VM 
-	 * @return ifStarted
-	 */
-	public boolean spawnVM();
-	
-	/**
-	 * Terminates the VM
-	 * @return ifStopped
-	 */
-	public boolean stopVM();
-	
-	/**
-	 * Get a list of VMs
-	 * @return listOfVMs
-	 */
-	public List getVMs();
-        
-        /*
-         * Specific VM detail
-         */
-        public Object getVM();
+	Formation deploy(Formation formation);
 
 }

@@ -16,7 +16,7 @@
  */
 package com.cognizant.util.test;
 
-import com.cognizant.util.FormationDeploymentService;
+import com.cognizant.orchestrator.FormationDeploymentService;
 
 import junit.framework.TestCase;
 

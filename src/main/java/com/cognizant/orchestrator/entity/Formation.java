@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cognizant.util.entity;
+package com.cognizant.orchestrator.entity;
 
 import com.cognizant.jpaas.cloud.datamodel.cloud.VirtualMachineProductType;
 import java.util.Set;

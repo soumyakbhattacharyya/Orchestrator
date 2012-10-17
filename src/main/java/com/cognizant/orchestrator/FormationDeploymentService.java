@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cognizant.util;
+package com.cognizant.orchestrator;
 
-import com.cognizant.util.entity.Formation;
+import com.cognizant.orchestrator.entity.Formation;
 import org.springframework.stereotype.Component;
 
 
