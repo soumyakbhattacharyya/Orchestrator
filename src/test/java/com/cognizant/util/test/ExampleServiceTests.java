@@ -14,18 +14,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.soumyak.util;
+package com.cognizant.util.test;
 
-import com.cognizant.util.ExampleService;
+import com.cognizant.util.FormationDeploymentService;
 
 import junit.framework.TestCase;
 
 public class ExampleServiceTests extends TestCase {
 
-	private ExampleService service = new ExampleService();
+	private FormationDeploymentService service = new FormationDeploymentService();
 	
 	public void testReadOnce() throws Exception {
-		assertEquals("Hello world!", service.getMessage());
+		//assertEquals("Hello world!", service.getMessage());
 	}
 
 }

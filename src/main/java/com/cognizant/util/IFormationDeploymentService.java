@@ -16,8 +16,10 @@
  */
 package com.cognizant.util;
 
-public interface Service {
+import com.cognizant.util.entity.Formation;
+
+public interface IFormationDeploymentService {
 	
-	String getMessage();
+	Formation deploy(Formation formation);
 
 }

@@ -42,6 +42,11 @@ public interface IResourceManager {
 	 * Get a list of VMs
 	 * @return listOfVMs
 	 */
-	public List getVM(); 
+	public List getVMs();
+        
+        /*
+         * Specific VM detail
+         */
+        public Object getVM();
 
 }

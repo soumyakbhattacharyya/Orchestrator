@@ -16,21 +16,36 @@
  */
 package com.cognizant.util;
 
+import com.cognizant.util.entity.Formation;
 import org.springframework.stereotype.Component;
 
 
 /**
- * {@link Service} with hard-coded input data.
+ * {@link IFormationDeploymentService} with hard-coded input data.
  */
 @Component
-public class ExampleService implements Service {
+public class FormationDeploymentService implements IFormationDeploymentService {
 	
-	/**
-	 * Reads next record from input
-	 */
-	public String getMessage() {
-		return "Hello world!";
-		//TODO Need to make sure that this method is appropriately tested		
-	}
+    @Override
+    public Formation deploy(Formation formation) {
+        
+    Formation _formation = formation;
+    
+    // Phase #2: Read formation & Persist formation in form of a document into MongoDB
+    
+    // Phase #1: Interpret infrastruture requirement and spawn VMs
+    
+    // Phase #1: Update RunDeck schema with the tag of the spawned VMs
+    
+    // Phase #2: Overload job options for the job group
+    
+    // Phase #1: Trigger job group in RunDeck
+    
+    return _formation;
+    
+    }
+    
+    
+	
 
 }
